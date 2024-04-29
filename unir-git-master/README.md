@@ -8,6 +8,7 @@ Los comandos del Makefile funcionarán en Linux y MacOS. En caso de usar Windows
 
 ## Ejecución
 
-python3 main.py <filename> <dup>
+python3 main.py <filename> <dup> <orden_asc>
   filename: **ruta** al fichero que contiene la lista de palabras, una por línea
   dup: **yes|no**, yes para eliminar palabras duplicadas, no para mantener la lista
+  orden_asc: **yes|no**, yes para ordenar la lista de forma ascendente, no para no ordenar la lista
